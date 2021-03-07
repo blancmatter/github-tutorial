@@ -19,7 +19,7 @@ This should be done at least to a minimal level. See the following resources;
 * https://www.markdowntutorial.com/
 * https://www.makeareadme.com/
 
-Markdown is also exceptionally useful for referencing code either `incline` where
+Markdown is also exceptionally useful for referencing code either `inline` where
 you may reference package or function names, but you can also create code blocks as
 below and also specify syntax highlighting for the language you are using.
 
@@ -30,7 +30,7 @@ import time
 
 while True:
   time.sleep(60)
-  print("Another minute has passed!)
+  print('Another minute has passed!')
  ```
  
  
