@@ -1,6 +1,14 @@
 # github-tutorial
 Example Repository for LJMU Data Science Masters Students
 
+## Topics covered and where to find more detailed notes
+* Git and Github overview
+* Creating a repository
+* Creating and changing code locally
+* Pushing changes to your remote repository
+* Pulling down changes from your remote repository
+* Bonus: Branches and why you probably don't want to use them
+
 
 ## Notes on markdown
 Markdown is useful to assist with documenting your project. Any github repository 
@@ -37,3 +45,10 @@ if(A>a) # true, 84 > 42
   cat(A, ">", a, "\n")
 } 
 ```
+
+**NOTE** It is exceptionally important that you document a project to the correct level. 
+Will other poeple just be using the code, or will they be modifying and maintaining it also?
+For this project it is unlikely that anyone else will be using your code and you just need 
+minimal documentation. If however you feel that yoour supervidory team may with to take the 
+code for future projects, the it may be worth spending a **_little_** more time documenting!
+
