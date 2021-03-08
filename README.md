@@ -36,7 +36,7 @@ If you don't see the above you will need to install git.
 
 ### Installing git on Ubuntu Linux
 ```shell
-$> sudo apt get git
+$> sudo apt install git
 ```
 
 ### Installing git on Mac
