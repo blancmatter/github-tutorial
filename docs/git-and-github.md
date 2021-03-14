@@ -1,6 +1,6 @@
 # Git and Github
 
-![Alt text](../iamges/flow.jpg?raw=true "Basics of git and github")
+![Alt text](../images/flow.jpg)
 
 
 ## Terminology
