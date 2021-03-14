@@ -1,6 +1,10 @@
 # Git and Github
 
+<<<<<<< HEAD
 ![Alt text](../images/flow.jpg)
+=======
+![Alt text](../images/flow.jpg?raw=true "Basics of git and github")
+>>>>>>> d6d099fd65a5c19d68fa3243c720e4c1674d0aaa
 
 
 ## Terminology
