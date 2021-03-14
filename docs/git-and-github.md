@@ -49,10 +49,10 @@ not been committed
 
 * The files for which we want to commit changes need to be added
 (also known as staging)
-```shell
-$>  git add docs/git-and-github.md
-```
-It can be a pain adding files one by one, so you can bulk add with the command
-```shell
-$>  git add -A
-```
+    ```shell
+    $>  git add docs/git-and-github.md
+    ```
+  It can be a pain adding files one by one, so you can bulk add with the command
+    ```shell
+    $>  git add -A
+    ```
