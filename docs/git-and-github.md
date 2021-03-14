@@ -1,5 +1,8 @@
 # Git and Github
 
+![Alt text](../iamges/flow.jpg?raw=true "Basics of git and github")
+
+
 ## Terminology
 * `repository` - the git repository locally and on the remote (i.e. github)
 * `clone` - copy a remote repository from github
