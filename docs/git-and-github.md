@@ -1,7 +1,11 @@
 # Git and Github
+<<<<<<< HEAD
 
 ![Alt text](../images/flow.jpg)
 
+=======
+![Alt text](../images/flow.jpg)
+>>>>>>> test
 
 ## Terminology
 * `repository` - the git repository locally and on the remote (i.e. github)
