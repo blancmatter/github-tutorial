@@ -13,17 +13,14 @@
 * `merge` - bring two branches back together
 
 And in the following, means you've got out of sync between the local and remote;
-Don't try and use these, they'll just confuse!!!
+Don't try and use these, they'll just confuse!
 * `stash` - save the out of sync changes away
 * `pop` - merge back in out of sync changes of synchronised    
-
-
-
 
 ## Git
 * Is a version control system (VCS), common in software development
 * Can be used (usefully) on any text based files.
-* Not intended for large file storage! Not recommended for datasets!
+* Not intended for large file storage. **i.e. Not recommended for datasets!**
 
 ### Local Usage
 * In any folder you can create a git `repository`, this will then create a
@@ -33,4 +30,29 @@ disrail@soyuz:~/github-tutorial$ git init
 Initialised empty Git repository in /home/disrail/github-tutorial/.git/
 ```
 
-* Next we want to check 
+* Next we want to check which files in the folder have changes and have
+not been committed
+``` shell
+disrail@soyuz:~/github-tutorial$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   docs/git-and-github.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+* The files for which we want to commit changes need to be added
+(also known as staging)
+```shell
+disrail@soyuz:~/github-tutorial$ git add docs/git-and-github.md
+```
+It can be a pain adding files one by one, so you can bulk add with the command
+```shell
+disrail@soyuz:~/github-tutorial$ git add -A
+```
