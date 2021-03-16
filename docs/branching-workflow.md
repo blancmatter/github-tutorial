@@ -4,8 +4,8 @@ Branches are super helpful and a core concept of git and github. They are
 mentioned here for the keen.
 
 See these resources for more info and exercises.
-https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
-https://learngitbranching.js.org/
+* https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+* https://learngitbranching.js.org/
 
 ## Development Workflow
 The workflow is as follows;
