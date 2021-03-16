@@ -1,12 +1,16 @@
 # github-tutorial
-Example Repository for LJMU Data Science Masters Students
+Example Repository for LJMU Data Science Masters Students.
+
+**Note** - There is no requirement to use github in your project and you will
+not be marked on it. This tutorial is for skill development and a technology
+you will hopefully find useful in your project.
 
 ## Topics covered and where to find more detailed notes
 * [Git and Github overview](docs/git-and-github.md)
 * [Creating a repository](docs/creating-a-repo.md)
-* [Changing and commiting code locally](docs/git-local.md)
-* [Pushing changes to your remote repository](docs/pushing-to-github.md)
-* [Pulling down changes from your remote repository](docs/pulling-from-github.md)
+* [Changing and committing code locally](docs/git-local.md)
+* [Rewinding to a previous state](docs/rewind.md)
+* [Pushing and Pulling changes to/from your remote repository](docs/pushpull-github.md)
 * [Bonus: Branches and why you probably don't want to use them](docs/branching-workflow.md)
 
 ## Using github locally with Linux, Mac and Windows
@@ -40,7 +44,8 @@ $> sudo apt install git
 ```
 
 ### Installing git on Mac
-There is an installer you can download https://sourceforge.net/projects/git-osx-installer/
+There is an installer you can download
+https://sourceforge.net/projects/git-osx-installer/
 
 However if you have homebrew for mac then just type
 ```shell
@@ -61,17 +66,19 @@ of bash for windows. We will use this for all tutorials.
 
 
 ## Notes on markdown
-Markdown is useful to assist with documenting your project. Any github repository
-should ideally have a README.md file (such as this one) in the root of the project.
+Markdown is useful to assist with documenting your project. Any github
+repository should ideally have a README.md file (such as this one) in the root
+of the project.
 
 This should be done at least to a minimal level. See the following resources;
 
 * https://www.markdowntutorial.com/
 * https://www.makeareadme.com/
 
-Markdown is also exceptionally useful for referencing code either `inline` where
-you may reference package or function names, but you can also create code blocks as
-below and also specify syntax highlighting for the language you are using.
+Markdown is also exceptionally useful for referencing code either `inline`
+where you may reference package or function names, but you can also create
+code blocks as below and also specify syntax highlighting for the language
+you are using.
 
 For python;
 
@@ -81,7 +88,7 @@ import time
 while True:
   time.sleep(60)
   print('Another minute has passed!')
- ```
+```
 
 
 For r;
@@ -96,8 +103,10 @@ if(A>a) # true, 84 > 42
 }
 ```
 
-**NOTE** It is exceptionally important that you document a project to the correct level.
-Will other poeple just be using the code, or will they be modifying and maintaining it also?
-For this project it is unlikely that anyone else will be using your code and you just need
-minimal documentation. If however you feel that yoour supervidory team may with to take the
-code for future projects, the it may be worth spending a **_little_** more time documenting!
+**NOTE** It is exceptionally important that you document a project to the
+correct level. Will other poeple just be using the code, or will they be
+modifying and maintaining it also? For this project it is unlikely that anyone
+else will be using your code and you just need minimal documentation.
+If however you feel that yoour supervisory team may with to take the code
+for future projects, the it may be worth spending a **_little_** more
+time documenting!
