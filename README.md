@@ -12,6 +12,7 @@ you will hopefully find useful in your project.
 * [Rewinding to a previous state](docs/rewind.md)
 * [Pushing and Pulling changes to/from your remote repository](docs/pushpull-github.md)
 * [Bonus: Branches and why you probably don't want to use them](docs/branching-workflow.md)
+* [exercises.md](exercises.md)
 
 ## Using github locally with Linux, Mac and Windows
 **Note**: We will be using the `git` command, run in a terminal for all of

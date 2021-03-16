@@ -1,5 +1,7 @@
 # Rewinding to a previous state
 
+This is used if we have broken our code or want to get hold of some data that we previously deleted / overwrote.
+
 **This is complicated**, so the below is details of how to do this easily without getting confused. Once you have this operation understood, and you want to confuse youself, see;
 https://opensource.com/article/18/6/git-reset-revert-rebase-commands
 
@@ -43,11 +45,17 @@ We are going to use a 'bodge' to go back to a previous state, or partially to a 
     $> cp <files I want> /tmp
     ```
 
-* Next we will go back to the most current commit
+* Next we will go back to the most current commit. As we are on the `main` branch (or might be called `master` if created in git) we do;
+    ```shell
+    $> git checkout main
+    ```
 
-
-
-
+* So we have copied away the files we want to revert to, and are at the main branch head. We copy back the files and then commit the changes. Do this is a file browser if this seems easier
+    ```shell
+    $> cp /tmp<files I want> ./
+    $> git add -A
+    $> git commit -m "Reverted files back to working state"
+    ```
 
 
 ## Next Page

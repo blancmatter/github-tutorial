@@ -26,6 +26,7 @@ Don't try and use these, they'll just confuse!
 * Is a local version control system (VCS), common in software development
 * Can be used (usefully) on any text based files
 * Not intended for large file storage. **i.e. Not recommended for datasets!**
+We will cover the `.gitignore` file for this.
 * Designed to be used with remote repositories
 (i.e. on Github, Bitbucket, Gitlab etc)
 
