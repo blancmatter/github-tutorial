@@ -32,7 +32,7 @@ situation our 'bodge' is to;
 * Push back to github any changes
 
 This may look something like;
-    ```shell
+    ```
     $> cp files I need /tmp
     $> cd ../
     $> rm -rf mygitrepository
