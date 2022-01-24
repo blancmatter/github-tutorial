@@ -40,7 +40,7 @@ This may look something like;
     $> cd <mygitrepository>
     $> cp tmp/<files I need> ./
     $> git add -A
-    $> git commit -m "This is my synchronised git commit"
+    $> git commit -m 'This is my synchronised git commit'
     $> git push origin main
     ```
 
