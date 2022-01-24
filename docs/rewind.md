@@ -6,7 +6,28 @@ This is used if we have broken our code or want to get hold of some data that we
 https://opensource.com/article/18/6/git-reset-revert-rebase-commands
 
 
-## Our basic reverting method
+## Git reset hard
+
+Find the commit you want to revert to using git log
+
+```shell
+$> git log --oneline
+b764644 File with three lines
+7c709f0 File with two lines
+9ef9173 File with one line
+```
+
+If we ant to go back to the commit "File with three lines" then we do;
+
+```shell
+$> git reset --hard 7c709f0
+```
+This will return the repository and your local code back to that commit. Note you will lose **ALL** changes
+since the commit you reset to and also the local and remote repositories become out of sync.
+
+A better method *may* be to use the basic methgod below. 
+
+## A basic reverting method
 
 We are going to use a 'bodge' to go back to a previous state, or partially to a previus state. The steps are;
 
