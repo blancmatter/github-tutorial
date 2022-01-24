@@ -33,12 +33,12 @@ situation our 'bodge' is to;
 
 This may look something like;
     ```shell
-    $> cp <files I need> /tmp
+    $> cp files I need /tmp
     $> cd ../
-    $> rm -rf <mygitrepository>
+    $> rm -rf mygitrepository
     $> git clone https://github/com/<username>/<mygitrpository>
-    $> cd <mygitrepository>
-    $> cp tmp/<files I need> ./
+    $> cd mygitrepository
+    $> cp tmp/files I need ./
     $> git add -A
     $> git commit -m 'This is my synchronised git commit'
     $> git push origin main
