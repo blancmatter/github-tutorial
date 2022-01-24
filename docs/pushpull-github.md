@@ -32,11 +32,11 @@ situation our 'bodge' is to;
 * Push back to github any changes
 
 This may look something like;
-    ```
-    $> cp files I need /tmp
-    $> cd ../
-    $> rm -rf mygitrepository
-    ```
+```shell
+$> cp files I need /tmp
+$> cd ../
+$> rm -rf mygitrepository
+```
     $> git clone https://github/com/username/mygitrpository
     $> cd mygitrepository
     $> cp tmp/files I need ./
