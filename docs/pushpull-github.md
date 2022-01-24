@@ -36,14 +36,13 @@ This may look something like;
 $> cp files I need /tmp
 $> cd ../
 $> rm -rf mygitrepository
+$> git clone https://github/com/username/mygitrpository
+$> cd mygitrepository
+$> cp tmp/files I need ./
+$> git add -A
+$> git commit -m 'This is my synchronised git commit'
+$> git push origin main
 ```
-    $> git clone https://github/com/username/mygitrpository
-    $> cd mygitrepository
-    $> cp tmp/files I need ./
-    $> git add -A
-    $> git commit -m 'This is my synchronised git commit'
-    $> git push origin main
-
 
 
 ## Next Page
